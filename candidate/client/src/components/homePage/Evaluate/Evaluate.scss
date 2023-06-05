@@ -1,0 +1,43 @@
+.evaluate{
+    .container{
+        .text-2{
+            width: 100px;
+            height: 5px;
+            background-color: #2695df;
+            margin: auto;
+            margin-bottom: 40px;
+        }
+
+        .evaluate-card {
+            width: 95%;
+            margin: 0px auto;
+
+            .card {
+                height: 220px;
+            }
+
+            h5 {
+                color: #2695df;
+            }
+           
+        }
+
+        .evaluate-data {
+            .btn-dang-ky {
+                padding: 10px 25px !important;
+                background-color: #2695df;
+            }
+            .btn-dang-ky:hover {               
+                background-color: #0c5586;
+            }
+
+            h1 {
+                color: #2695df;
+            }
+        }
+    }
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: inherit;
+}

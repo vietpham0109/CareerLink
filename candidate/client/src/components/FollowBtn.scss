@@ -1,0 +1,28 @@
+.btn-follow{
+    padding: 15px 15px;
+    border: 0.5px solid #71b8e8;
+    background-color: #71b8e8;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.btn-follow:hover {
+    background-color: #54a3d8;
+    color: white;
+}
+
+.btn-unfollow{
+    padding: 15px 15px;
+    border: 0.5px solid #f84646ab;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    background-color: #f84646ab;
+    font-weight: bold;
+
+}
+.btn-unfollow:hover {
+    background-color: #f84646ec;
+    color: white;
+}

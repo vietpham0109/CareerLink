@@ -1,0 +1,237 @@
+.course-container {
+    .left {
+        .ant-menu-dark.ant-menu-horizontal>.ant-menu-item:hover {
+            border-radius: 6px,
+
+        }
+    }
+
+    .image-container {
+        background-image: url(../../images//bg.png);
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+
+        .content {
+            position: absolute;
+            top: 0;
+            width: 70%;
+            font-size: 46px;
+            font-weight: 400;
+            color: white;
+            text-align: center;
+
+            .content-title {
+                margin-bottom: 30px;
+            }
+
+            .content-search {
+                width: 90%;
+            }
+
+            .ant-input-affix-wrapper-lg {
+                padding: 14.5px 18px;
+            }
+
+            .ant-input {
+                font-size: 24px;
+            }
+
+            .ant-btn-icon-only.ant-btn-lg {
+                width: 72px;
+            }
+
+            .ant-input-search-large .ant-input-search-button {
+                height: 68px;
+                background-color: rgb(0, 183, 255);
+            }
+
+            .ant-btn {
+                border: 1px solid rgb(0, 183, 255);
+
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
+
+            .content-p {
+                font-size: 30px;
+                margin-top: 30px;
+            }
+
+            .content-job {
+                display: inline-block;
+                font-size: 24px;
+                font-weight: normal;
+
+                .content-job_item {
+                    margin: 0 10px;
+                    text-decoration: underline;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .providers {
+        display: flex;
+        width: 60vw;
+        margin: 60px auto;
+        flex-direction: column;
+        justify-content: center;
+
+
+        .providers-wrap {
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        .providers-block {
+            border: 1px solid #F3F6F8;
+            text-align: center;
+            padding: 20px;
+        }
+    }
+
+    .popular-course {
+        display: flex;
+        width: 60vw;
+        margin: 60px auto;
+        flex-direction: column;
+        justify-content: center;
+
+        .card-course {
+            margin-top: 16px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+        }
+    }
+
+    .personal {
+        display: flex;
+        width: 60vw;
+        margin: 60px auto;
+        flex-direction: column;
+        justify-content: center;
+
+        .personal-body {
+            margin-top: 16px;
+            display: flex;
+            justify-content: space-between;
+
+            .personal-des {
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+
+                .description {
+                    margin: 10px 0 10px 24px;
+                    font-size: 16px;
+
+                    .icon {
+                        transform: translateY(-3px);
+                        color: rgb(0, 183, 255);
+                        margin-right: 16px;
+                        font-size: 30px;
+                    }
+                }
+
+                .btn {
+                    margin-left: 24px;
+                    margin-top: 10px;
+                    width: 40%;
+                    height: 30%;
+                    border-radius: 6px;
+                    font-size: 24px;
+                }
+            }
+        }
+
+    }
+
+    .course-type {
+        display: flex;
+        width: 60vw;
+        margin: 60px auto;
+        flex-direction: column;
+        justify-content: center;
+
+        .type {
+            margin-top: 16px;
+            display: flex;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+
+            .flip-card {
+                background-color: #003676;
+                width: 170px;
+                height: 170px;
+                perspective: 1000px;
+                margin: 8px;
+                border-radius: 10px;
+            }
+
+            .flip-card-inner {
+                position: relative;
+                width: 100%;
+                height: 100%;
+                text-align: center;
+                transition: transform 0.6s;
+                transform-style: preserve-3d;
+            }
+
+            .flip-card:hover .flip-card-inner {
+                transform: rotateY(180deg);
+            }
+
+            .flip-card-front,
+            .flip-card-back {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                -webkit-backface-visibility: hidden;
+                backface-visibility: hidden;
+            }
+
+
+            .flip-card-back {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                border-radius: 10px;
+                background-color: #003676;
+                color: white;
+                transform: rotateY(180deg);
+
+                h1 {
+                    color: white;
+
+                }
+            }
+        }
+    }
+
+    .validation {
+        display: flex;
+        width: 60vw;
+        margin: 60px auto;
+        flex-direction: column;
+        justify-content: center;
+
+        .validation-form {
+            width: 40vw;
+            margin: 0 auto;
+
+
+        }
+    }
+}

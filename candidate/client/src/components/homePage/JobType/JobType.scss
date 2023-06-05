@@ -1,0 +1,122 @@
+.job-best {
+    .container {
+        .text-2 {
+            width: 100px;
+            height: 5px;
+            background-color: #2695df;
+            margin: auto;
+            margin-bottom: 20px;
+        }
+
+        .row {
+
+            .col-sm-4 {
+                padding-left: 10px;
+                padding-right: 10px;
+
+                .job-box {
+
+                    .text-title {
+                        color: white;
+                        font-size: 20px;
+                        background-color: #2695df;
+                        font-weight: bold;
+
+                        i {
+                            margin-right: 10px;
+                        }
+                    }
+
+                    .list-job {
+                        height: 500px;
+                        overflow: auto;
+
+                        .job-over-item {
+
+                            img {
+                                height: 50px;
+                                width: 50px;
+                                margin-top: 20px;
+                                margin-left: 10px;
+                            }
+
+                            .name-job {
+                                margin: 5px 0px;
+                                white-space: nowrap;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+
+
+                                a:hover {
+                                    color: #1790d4;
+                                }
+
+                                a {
+                                    text-decoration: none;
+                                    color: black;
+
+                                    span {
+                                        padding-bottom: 5px;
+                                        font-weight: 700;
+                                        font-size: 17px;
+                                    }
+                                }
+                            }
+
+                            .name-company {
+                                margin-bottom: 5px;
+                                white-space: nowrap;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+
+                                a:hover {
+                                    color: #5ebcf1;
+                                }
+
+                                a {
+                                    text-decoration: none;
+                                    color: #333;
+
+                                    span {
+                                        padding-bottom: 5px;
+                                        font-weight: 400;
+                                        font-size: 16px;
+                                    }
+                                }
+                            }
+
+                            .job-info {
+
+                                .salary {
+                                    white-space: nowrap;
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+
+                                    i {
+                                        margin-right: 5px;
+                                        color: #2695df;
+                                    }
+
+                                    span {
+                                        color: #333;
+                                    }
+                                }
+
+                                .location {
+                                    white-space: nowrap;
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+
+                                    i {
+                                        margin-right: 5px;
+                                        color: #2695df;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

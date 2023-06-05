@@ -1,0 +1,156 @@
+// .ant-input-affix-wrapper,
+// textarea.ant-input {
+//   border-radius: 6px;
+// }
+// .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+//   border-radius: 6px;
+// }
+
+.ant-form-item-label>label {
+  font-size: 16px;
+}
+
+//
+.login-box {
+  position: absolute;
+  margin-top: -70px;
+  left: 15%;
+  width: 500px;
+  padding-left: 40px;
+  height: auto;
+  background: linear-gradient(#fefeff, #c8dcf4);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+
+  .btnSubmit {
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 100px;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    letter-spacing: 4px;
+    background: #f8f9fa;
+    border-radius: 30px;
+    text-transform: uppercase;
+  }
+}
+
+.btnSubmit:hover {
+
+  border: 2px blue;
+  box-shadow: 15px 20px 25px rgb(201, 201, 207);
+}
+
+// .login-box .user-box {
+//   position: relative;
+//   width: 100%;
+// }
+
+.login-box .user-box {
+  .inp {
+    width: 400px;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 0px;
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+    float: left;
+  }
+}
+
+//
+//register
+//
+.register {
+  background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+  height: 100vh;
+  padding: 0;
+
+}
+
+.register-left {
+  text-align: center;
+  color: #fff;
+
+  //
+  .btnLog {
+    width: 200px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: -70px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    color: black;
+    letter-spacing: 4px;
+    background: #f8f9fa;
+    border-radius: 30px;
+  }
+}
+
+.register-right {
+  background: #f8f9fa;
+  border-top-left-radius: 10% 50%;
+  border-bottom-left-radius: 10% 50%;
+  margin-top: 4%;
+  padding-right: 50px;
+  //margin-left: 20px;
+
+  // .ant-form-vertical .ant-form-item-label,
+  // .ant-col-24.ant-form-item-label,
+  // .ant-col-xl-24.ant-form-item-label {
+  //   padding: 0 0 0px;
+  //   line-height: 1.5715;
+  //   white-space: initial;
+  //   text-align: left;
+  //   margin-bottom: -2px;
+  // }
+}
+
+.register-left {
+  img {
+    margin-top: 15%;
+    margin-bottom: 5%;
+    width: 25%;
+    -webkit-animation: mover 2s infinite alternate;
+    animation: mover 1s infinite alternate;
+  }
+}
+
+.register-left {
+  text-align: center;
+  color: #fff;
+  margin-top: 4%;
+}
+
+.nameInp {
+
+  width: 350px;
+}
+
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+}
+
+//   100% {
+//     transform: translateY(-20px);
+//   }
+// }
+
+// @keyframes mover {
+//   0% {
+//     transform: translateY(0);
+//   }
+
+//   100% {
+//     transform: translateY(-20px);
+//   }
+// }

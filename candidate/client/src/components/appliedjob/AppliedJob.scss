@@ -1,0 +1,54 @@
+.applied-job-view {
+    .applied-job-content {
+        .applied-job-list {
+            .list-jobs {               
+        
+                .name-job {
+                    font-weight: 700;
+                    
+                    a {
+                        color: black;
+                        font-size: 18px;
+                    }
+
+                    a:hover {
+                        text-decoration: none;
+                        color: #1790d4;
+                    }
+                    
+                }
+
+                .name-company {
+                    font-weight: 500;
+
+                    a {
+                        color: black;
+
+                    }
+
+                    a:hover {
+                        text-decoration: none;
+                        color: #5ebcf1;
+                    }
+                }
+                .btn-applied-job {
+                    text-align: center;
+                    
+                    i {
+                        margin-right: 5px;
+                    }
+
+                    .btn-applied-job-1 {
+                        padding: 10px 30px;
+                        background-color: rgb(28, 169, 204);
+                        color: white;                          
+                    }
+
+                    .btn-applied-job-1:hover {
+                        background-color: rgb(22, 139, 168);
+                    }
+                }                          
+            }
+        }
+    }
+}

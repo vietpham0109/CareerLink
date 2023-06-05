@@ -1,0 +1,78 @@
+.job-detail-view {
+
+    .job-search {
+        background: linear-gradient(#00B7FF, #005385);
+        padding: 20px 0px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+    .text-1 {
+        font-size: 17px;
+
+        a {
+            text-decoration: none;
+        }
+    }
+
+    .job-content {
+        .name-company {
+            a {
+                color: #333;
+                font-size: 20px;
+                font-weight: 600;
+            }
+
+            a:hover {
+                color: #1790d4;
+                text-decoration: none;
+            }
+        }
+
+        .job-content-2 {
+            background-color: #f7fbff;
+
+            .content-detail {
+                display: flex;
+
+                .icon-left {
+                    font-size: 25px;
+                    font-weight: normal;
+                    margin: auto 10px;
+                    color: #616161;
+
+                    i {
+                        width: 25px;
+                        text-align: center;
+                    }
+                }
+
+                .info-detail {
+                    display: flex;
+                    flex-direction: column;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+
+                    .title-3 {
+                        font-weight: 500;
+                    }              
+                }
+            }
+        }
+    }
+
+    .job-btn {
+        display: flex;
+        flex-direction: column;
+
+        .btn {
+            padding: 17px 0px;
+            font-weight: bold;
+        }
+    }
+
+}
+
+.item-share {
+    animation: downup 0.7s forwards;
+}

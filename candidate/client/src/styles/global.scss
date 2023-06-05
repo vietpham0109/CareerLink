@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --main-bg: #ffffff;
+  --box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+#theme {
+  display: none;
+}
+/* #theme:checked ~ * {
+  filter: invert(1);
+} */
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+  background: #fffefe;
+}
+
+.main {
+  max-width: 1920px;
+  width: 100%;
+  min-height: 100vh;
+  margin: auto;
+}
+
+img {
+  object-fit: cover;
+}
+
+/* -------- AUTH ---------- */
+@import "./auth.scss";
+
+/* -------- LOADING ---------- */
+@import "./loading.scss";
+
+/* -------- Avatar ---------- */
+@import "./avatar.scss";
+
+/* -------- Header ---------- */
+@import "./header.scss";
+
+/* -------- Profile ---------- */
+@import "./profile.scss";
+
+/* -------- Home ---------- */
+@import "./home.scss";
+
+/* -------- Comment ---------- */
+@import "./comments.scss";
+
+/* -------- Status Modal ---------- */
+@import "./status_modal.scss";
+
+/* -------- Post Thumb ---------- */
+@import url("./post_thumb.css");
+
+/* -------- Message---------- */
+@import "./message.scss";
+
+/* -------- Call Modal---------- */
+@import "./call_modal.scss";
+
+/* -------- Admin profile---------- */
+@import "./admin_profile.scss";
+
+
+.mode {
+  width: 100%;
+  height: 100vh;
+  
+}
+
+svg {
+  overflow: hidden;
+  vertical-align: initial;
+}
+
+.card {
+  background-color: var(--main-bg);
+  box-shadow: var(--box-shadow);
+}
+
+/* ------------- Active Email --------------- */
+.active_page {
+  background: linear-gradient(#00B7FF, #FFFFC7);
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+
+  .card {
+    height: 300px;
+    transform: translateY(50%);
+
+    .card-body {
+      p {
+        font-size: 1.5rem;
+        font-weight: 500;
+
+        a:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+

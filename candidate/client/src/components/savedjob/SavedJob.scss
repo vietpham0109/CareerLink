@@ -1,0 +1,65 @@
+.saved-job-view {
+    .saved-job-content {
+        .saved-job-list {
+            .list-jobs {
+                .name-job {
+                    font-weight: 700;
+                    
+                    a {
+                        color: black;
+                        font-size: 18px;
+                    }
+
+                    a:hover {
+                        text-decoration: none;
+                        color: #1790d4;
+                    }
+                    
+                }
+
+                .name-company {
+                    font-weight: 500;
+
+                    a {
+                        color: black;
+
+                    }
+
+                    a:hover {
+                        text-decoration: none;
+                        color: #5ebcf1;
+                    }
+                }
+                .btn-saved-job {
+                    display: flex; 
+                    justify-content: center;       
+
+                    i {
+                        margin-right: 5px;
+                    }
+
+                    .btn-apply-job {
+                        padding: 10px 15px;
+                        background-color: rgb(28, 169, 204);
+                        color: white;
+                        margin-right: 10px;                          
+                    }
+
+                    .btn-apply-job:hover {
+                        background-color: rgb(22, 139, 168);
+                    }
+
+                    .btn-unsave-job {
+                        padding: 10px 15px;
+                        background-color: #f84646ab;
+                        color: white;                         
+                    }
+
+                    .btn-unsave-job:hover {
+                        background-color: #f84646ec;
+                    }
+                }  
+            }
+        }
+    }
+}

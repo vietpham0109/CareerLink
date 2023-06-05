@@ -1,0 +1,165 @@
+.find-jobs-content {
+    background: url("../../../images/banner/bg-5.jpg") no-repeat;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+}
+
+.b1 {
+    img {
+        height: 450px;
+        width: 100%;
+    }
+}
+
+.searach-banner {
+    width: 495px;
+    position: absolute;
+    top: 15%;
+    left: 3%;
+    height: 380px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: none;
+    border: none;
+    border-radius: 15px;
+
+    .name-1 {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .name-2 {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .btn-search-1 {
+        background-image: linear-gradient(to right, #86cb49, #169b74);
+        width: 100%;
+        height: 50px;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        margin-bottom: 20px;
+        transition: 1s;
+    }
+
+    .btn-search-1:hover {
+        background-image: linear-gradient(to right, #169b74, #86cb49);
+        transition: 1s;
+    }
+
+
+    .upload-resume {
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        padding: 15px 45px;
+        background: rgba(215, 240, 252, 0.6);
+
+        .name-3 {
+            margin-bottom: 10px;
+            color: #5d677a;
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        .btn-upload-2 {
+            margin: 15px 0;
+            background-image: linear-gradient(to right, #2d7bb7, #1e9bd3, #2d7bb7);
+            width: 100%;
+            height: 50px;
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+        }
+    }
+}
+
+.find-jobs-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 2.5rem;
+    font-size: 3rem;
+    color: white;
+}
+
+.find-jobs-title small {
+    font-weight: 400;
+    font-size: .9375rem;
+    margin-top: .6875rem;
+    display: block;
+    line-height: 1.2;
+}
+
+.form-row {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 999px;
+    padding: 1rem;
+}
+
+.find-jobs-search {
+    .form-control {
+        padding: 2rem;
+        border-radius: 999px;
+    }
+}
+
+.find-jobs-select {
+    .form-control {
+        padding-left: 40px;
+        height: 4rem;
+        border-radius: 999px;
+    }
+}
+
+.find-jobs-button {
+    .btn-tim-viec {
+        padding: 1.25rem;
+        border-radius: 999px;
+        width: 100%;
+        font-weight: bold;
+    }
+}
+
+.find-jobs-keyword {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+
+    p {
+        color: white;
+        font-weight: bold;
+        margin-right: 1rem;
+    }
+
+    ul {
+        li {
+            margin-right: 1rem;
+            display: inline-block;
+
+            a {
+                font-weight: 400;
+                color: white;
+                text-decoration: none;
+                opacity: 0.8;
+            }
+
+            a:hover {
+                opacity: 1;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .form-row {
+        background-color: rgba(255, 255, 255, 0);
+    }
+}

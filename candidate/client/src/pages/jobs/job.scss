@@ -1,0 +1,120 @@
+.job-view {
+    .job-search {
+        background: linear-gradient(#00B7FF, #005385) ;
+        padding: 20px 0px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+    .text-1 {
+        font-size: 17px;
+        a {
+            text-decoration: none;
+        }
+    }
+
+    .job-content {
+       
+        h3{
+            color: #1790d4;
+        }
+        .row {
+            .job-list {
+                padding-top: 0px;
+                padding-bottom: 0px;
+
+                .job-list-li {
+                    .job-list-name {
+                        font-size: 20px;
+                        font-weight: 650;
+                        padding: 5px;
+    
+                        a {
+                            text-decoration: none;
+                            color: black;
+                            
+                            .bg-info {
+                                color: white;
+                            }
+                        }
+    
+                        a:hover  {
+                            color: #1790d4;
+                        }
+                    }
+    
+                    .job-list-name-company {
+                        padding: 5px;
+                        font-weight: 500;
+
+                        a{
+                            text-decoration: none;
+                            color: black;
+                        }
+                        
+                        a:hover  {
+                            color: #5ebcf1;
+                        }
+                    }
+    
+                    .job-info {
+                        padding: 5px;
+                        color: #616161;
+
+                        i {
+                            margin-right: 10px;
+                            font-size: 20px;
+                            text-align: center;
+                            width: 20px;                          
+                        }
+                    }
+                    .right-job {
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+                        align-items: center;
+
+                        img {
+                            height: 120px;
+                            width: 120px;
+                        }
+                    }                   
+                }
+            }
+        }
+        
+    }
+}
+
+.table__pagination {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.table__pagination-item ~ .table__pagination-item {
+    margin-left: 10px;
+}
+
+.table__pagination-item {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.table__pagination-item.active,
+.table__pagination-item.active:hover {
+    background-color: #349eff;
+    color: #fff;
+    font-weight: 600;
+}
+
+.table__pagination-item:hover {
+    color:#fff;
+    background-color:#62b4ff;
+}

@@ -1,0 +1,207 @@
+.resume-wrapper {
+
+  ul {
+    list-style-type: circle;
+  }
+
+  .profile-1 {
+    background-color: white;
+
+    .profile-img {
+      width: 50%;
+      height: 150px;
+      text-align: center;
+
+      img {
+        width: 150px;
+        border-radius: 50%;
+        height: 150px;
+      }
+    }
+
+    .profile-name {
+      margin-top: 40px;
+      padding-left: 6px;
+      font-size: 50px;
+
+      span {
+        color: #66cc99;
+        font-weight: bold;
+      }
+    }
+
+    .profile-contact {
+      margin-left: 20px;
+      margin-top: 60px;
+      display: flex;
+
+      .list-titles {
+        width: 50%;
+      }
+
+      .list-content {
+        width: 50%;
+        color: #9099a0;
+        margin-right: 60px;
+      }
+    }
+
+    .profile-over {
+      margin-top: 60px;
+      margin-bottom: 60px;
+      padding-left: 6px;
+      color: rgb(112, 112, 112);
+
+      .bold {
+        font-weight: bold;
+      }
+    }
+
+    .profile-social {
+      display: flex;
+
+      margin-left: 20px;
+
+      .list-titles {
+        width: 50%;
+      }
+
+      .list-content {
+        width: 50%;
+        color: #9099a0;
+        margin-right: 80px;
+      }
+    }
+  }
+
+  .experience-1 {
+    color: white;
+
+    .experience-title {
+      color: #66cc99;
+      margin-bottom: 20px;
+    }
+
+    .experience-job {
+      display: flex;
+      margin-bottom: 40px;
+
+      .company {
+        width: 30%;
+
+        .company-name {
+          margin-bottom: 10px;
+        }
+
+        .company-time {
+          color: #9099a0;
+        }
+      }
+
+      .description {
+        width: 70%;
+
+        .title {
+          font-weight: bold;
+          margin-bottom: 10px;
+        }
+      }
+    }
+
+    .experience-education {
+      margin-bottom: 40px;
+
+      h3 {
+        color: #66cc99;
+        margin-bottom: 20px;
+      }
+
+      .education {
+        display: flex;
+
+        .left {
+          width: 30%;
+
+          .education-name {
+            margin-bottom: 10px;
+          }
+
+          .education-time {
+            color: #9099a0;
+          }
+        }
+
+        .right {
+          width: 70%;
+        }
+      }
+    }
+
+    .experience-language {
+      margin-bottom: 40px;
+
+      h3 {
+        color: #66cc99;
+        margin-bottom: 20px;
+      }
+
+      .language {
+        display: flex;
+
+        .left {
+          width: 30%;
+
+          .language-name {
+            margin-bottom: 10px;
+          }
+
+          .language-level {
+            color: #9099a0;
+          }
+        }
+
+        .right {
+          width: 70%;
+        }
+      }
+    }
+
+    .experience-other {
+      display: flex;
+
+      .skill {
+        width: 50%;
+
+        .skill-title {
+          color: #66cc99;
+        }
+
+        .skill-list {
+          margin: 0 20px;
+
+          .skill-percentage {
+            margin-bottom: 10px;
+
+            .skill-item {
+              span {
+                font-weight: bold;
+              }
+
+              p {
+                color: #9099a0;
+              }
+            }
+          }
+        }
+      }
+
+      .hobbies {
+        width: 50%;
+
+        .hobbies-title {
+          color: #66cc99;
+        }
+      }
+    }
+  }
+}

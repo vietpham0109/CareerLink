@@ -1,0 +1,74 @@
+.job-alert {
+    .job-img {
+        background-image: url(https://www.cv-library.co.uk/assets/images/trianglify-jobalerts-39d1eca0797b481dd8cd7bef8e66f182d57cb32e64d95edfb911b85d81cd0219.png);
+        width: 100%;
+        height: 60vh;
+        position: relative;
+
+        &::after {
+            position: absolute;
+            bottom: -21px;
+            right: 0;
+            left: 0;
+            content: "";
+            display: block;          
+            -webkit-box-flex: 0;
+            -webkit-flex: 0 0 auto;
+            -ms-flex: 0 0 auto;
+            flex: 0 0 auto;        
+            height: calc(100vw/10);
+            background: url(../../images/imgJobAlert.svg)
+        }
+
+        .job-wrap {
+            display: flex;
+            margin: 0 auto;
+            padding-top: 60px;
+
+            .left {
+                width: 50%;
+            }
+
+            .right {
+                width: 50%;
+
+            }
+        }
+    }
+
+    .wrap-body {
+        display: flex;
+
+        .left {
+            width: 40%;
+            text-align: center;
+        }
+
+        .right {
+            width: 60%;
+            margin-top: 105px;
+
+            .item {
+                display: flex;
+                margin-bottom: 20px;
+
+                .item-content {
+                    margin-left: 20px
+                }
+            }
+        }
+    }
+
+    .last {
+        display: flex;
+
+        .left {
+            width: 50%;
+        }
+
+        .right {
+            width: 50%;
+            border-left: 1px solid #ccc;
+        }
+    }
+}

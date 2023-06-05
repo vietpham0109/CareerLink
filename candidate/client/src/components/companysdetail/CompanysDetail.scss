@@ -1,0 +1,148 @@
+.company-detail-view {
+    .company-detail-search {
+        background-color: rgb(252, 248, 248);
+        padding: 20px 0px;
+    }
+
+    .text-1 {
+        a {
+            text-decoration: none;
+        }
+    }
+
+    .company-detail-content {
+        .logo-company {
+            img {
+                height: 120px;
+                width: 120px;
+            }
+        }
+        .info-company {
+
+            .location-company, .web-company{
+                font-size: 14px;
+                color: #616161;
+
+                i {
+                    margin-right: 5px;
+                }
+            }            
+        }
+
+        .btn-1 {
+            display: flex;
+            flex-direction: column;
+            transition: 0.5s;
+
+            .btn-light-1 {
+                padding: 15px 45px;
+                border: 1px solid #71b8e8;
+                border-radius: 5px;
+                color: #71b8e8;
+                font-size: 16px;
+                font-weight: bold;
+            }
+
+            .btn-light-1:hover {
+                background-color: #71b8e8;
+                color: white;
+            }
+            .item-share {      
+                animation: downup 0.7s forwards;
+            }
+            
+        }
+    }
+
+    .vacancie-recruiting {
+        h2 {
+            padding: 10px 0px;
+            margin: 20px 0px;
+        }
+        .container {
+            width: 90%;
+
+            .card {
+                .card-body {
+                    padding: 1.25rem 2rem;
+
+                    h3{
+                        color: #1790d4;
+                    }
+
+                    .content-vacancie-recruiting {
+                        a {
+                            text-decoration: none;
+                            color: #000;
+                            margin-bottom: 5px;
+                            display: inline-block; 
+                            
+                            span {
+                                font-weight: 500;   
+                                                         
+                            }
+                        }
+
+                        a:hover {
+                            color: #1790d4;
+                        }
+
+                        .job-info {
+                            .salary, .location, .end-date {
+                                color: #616161;
+                                font-size: 14px;
+
+                                i {
+                                    margin-right: 5px;
+                                }
+                            }
+                        
+
+                        }
+                        .btn-2 {
+                            .btn-save {
+                                width: 120px;
+                                border: 1px solid #71b8e8;
+                                border-radius: 5px;
+                                color: white;
+                                font-size: 16px;
+                                background-color: #71b8e8;
+                            }
+                
+                            .btn-save:hover {
+                                background-color: #54a3d8;
+                                color: white;
+                            }
+                            .btn-unsave {
+                                width: 120px;
+                                border: 1px solid #f84646ab;
+                                border-radius: 5px;
+                                color: white;
+                                font-size: 16px;
+                                background-color: #f84646ab;
+                            }
+                
+                            .btn-unsave:hover {
+                                background-color: #f84646ec;
+                                color: white;
+                            }
+                        }
+                        
+                    }                    
+                }
+            }
+        }       
+    }
+}
+
+@keyframes downup {
+    from {
+        transform: translateY(-15px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}

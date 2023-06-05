@@ -1,0 +1,64 @@
+.manage-cv {
+
+    .manage-cv-content{
+        .card-body {
+            .manage-cv-warn {
+                p {
+                    color: #333;
+                }
+            }
+
+            .manage-cv-list {
+                .list-cv {
+                    display: flex;
+                    flex-direction: column;
+
+                    .name-cv{
+                        i {
+                            margin-right: 5px;
+                        }
+                        color: rgb(14, 111, 156);
+                        font-weight: bold;
+                    }
+
+                    .form-check {
+                        input#flexCheckDefault {                          
+                            margin-top: 6px;
+                        }
+                    }
+
+
+                    .btn-manage-cv {
+                        display: flex;
+
+                        i {
+                            margin-right: 5px;
+                        }
+
+                        .btn-manage-cv-1 {
+                            padding: 10px 30px;
+                            background-color: rgb(28, 169, 204);
+                            color: white;                          
+                        }
+
+                        .btn-manage-cv-1:hover {
+                            background-color: rgb(22, 139, 168);
+                        }
+                    }
+                }
+                
+            }
+            .button-no-cv {
+                .btn-new-cv-1 {
+                    padding: 10px 30px;
+                    background-color: rgb(28, 169, 204);
+                    color: white;  
+                    font-weight: bold;
+                }
+                .btn-new-cv-1:hover {
+                    background-color: rgb(22, 139, 168);
+                }
+            }
+        }
+    }
+}

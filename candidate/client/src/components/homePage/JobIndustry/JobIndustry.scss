@@ -1,0 +1,68 @@
+.job-important{
+    .container{
+        .text-2{
+            width: 100px;
+            height: 5px;
+            background-color: #2695df;
+            margin: auto;
+            margin-bottom: 20px;
+        }
+        
+        .slide-carousel {
+            
+            .industry-card {
+                width: 95%;
+                margin: 0px auto;
+                
+                .box:hover {
+                    transform: translateY(-10px);
+                }
+
+                .box {
+                    height: 230px;               
+                    background-color: #f1f9ff;                               
+                    border-radius: 10px; 
+                    border: 1px solid #17a2b8; 
+                    margin: 10px 0px;
+                    transition: 0.5s;
+
+                    a {
+                        text-decoration: none;
+                        color: #333;
+    
+                        .box-job:hover {
+                            color: #1790d4;                          
+                        }
+    
+                        .box-job {
+                            padding: 10px;
+                            text-align: center; 
+    
+                            img {                           
+                                margin: 15px 0px;
+                            }
+    
+                            .box-content {
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;                                                   
+    
+                                .job-name {
+                                    font-size: 15px;
+                                    text-align: center;
+                                    font-weight: 600;                               
+                                    padding: 10px;
+                                    width: 100%;  
+                                }
+                                .job-tag {
+                                    color: #333;
+                                }                         
+                            }
+                        }
+                    }                                    
+                } 
+             
+            }                   
+        }
+    }
+}
